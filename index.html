@@ -7,47 +7,48 @@
   <link rel="stylesheet" href="./css/output.css">
   <title>Frontend Mentor | Four Card Feature Section</title>
 </head>
-<body class=" text-[15px] min-h-screen">
-  <div class="grid grid-cols-1 max-w-96 mx-auto shadow-lg p-5 pt-12 mt-5 border">
-
-    <div>
-      <h1 class="">
+<body class="text-[.9375rem] font-poppins">
+  <div class="flex justify-center items-center flex-col max-w-[23.4375rem] mx-auto px-4 mt-5 md:max-w-[37.5rem]">
+      <h2 class="text-[1.5625rem] text-center text-custom-grey400">
         Reliable, efficient delivery 
-        <span>Powered by Technology</span>
-        <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
-      </h1>
-    </div>
-
-    <div>
-      <h3>Supervisor</h3> 
-      <p>Monitors activity to identify project roadblocks</p>
-      <img src="assets/images/icon-supervisor.svg" alt="icon-supervisor">
-    </div>
-
-    <div>
-      <h3>Team Builder</h3>
-      <p>Scans our talent network to create the optimal team for your project</p>
-      <img src="assets/images/icon-team-builder.svg" alt="icon-team-builder">
-    </div>
-
-    <div>
-      <h3>Karma</h3>
-      <p>Regularly evaluates our talent to ensure quality</p>
-      <img src="assets/images/icon-karma.svg" alt="icon-karma">
-    </div>
-
-    <div>
-      <h3>Calculator</h3>
-      <p>Uses data from past projects to provide better delivery estimates</p>
-      <img src="assets/images/icon-calculator.svg" alt="icon-calculator">
-    </div>
-
+      </h2>
+      <h1 class="text-custom-grey500 font-bold text-[1.5625rem] text-center">Powered by Technology</h1>
+      <p class="text-custom-grey400 text-[.998rem] my-5 text-center">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
   </div>
 
+    <div class="grid grid-cols-1 max-w-[23.4375rem] mx-auto px-4 mt-8 md:grid-cols-2 md:max-w-fit md:gap-x-7 lg:grid-cols-3 lg:p-20">
+
+      <div class="relative grid grid-cols-1 grid-rows-[auto_auto_1fr] w-full min-h-60 border-t-4 border-t-custom-cyan rounded-lg shadow-lg p-6 mb-7 lg:top-1/2">
+        <h2 class="text-[1.25rem] font-medium text-custom-grey500 mb-1">Supervisor</h2>
+        <p class="text-custom-grey400">Monitors activity to identify project roadblocks</p>
+        <img src="assets/images/icon-supervisor.svg" alt="icon-supervisor" class="absolute items-end bottom-6 right-6">
+      </div>
+      
+      <div class="relative grid grid-cols-1 grid-rows-[auto_auto_1fr] w-full min-h-60 border-t-4 border-t-custom-red rounded-lg shadow-lg p-6 mb-7">
+        <h3 class="text-[1.25rem] font-medium text-custom-grey500 mb-1">Team Builder</h3>
+        <p class="text-custom-grey400">Scans our talent network to create the optimal team for your project
+        </p>
+        <img src="assets/images/icon-team-builder.svg" alt="icon-team-builder" class="absolute items-end bottom-6 right-6">
+      </div>
+      
+      <div class="relative grid grid-cols-1 grid-rows-[auto_auto_1fr] w-full min-h-60 border-t-4 border-t-custom-orange rounded-lg shadow-lg p-6 mb-7 lg:col-start-2 ">
+        <h3 class="text-[1.25rem] font-medium text-custom-grey500 mb-1">Karma</h3>
+        <p class="text-custom-grey400">Regularly evaluates our talent to ensure quality</p>
+        <img src="assets/images/icon-karma.svg" alt="icon-karma" class="absolute items-end bottom-6 right-6">
+      </div>
+      
+      <div class="relative grid grid-cols-1 grid-rows-[auto_auto_1fr] w-full min-h-60 border-t-4 border-t-custom-blue rounded-lg shadow-lg p-6 mb-7 lg:bottom-1/2">
+        <h3 class="text-[1.25rem] font-medium text-custom-grey500 mb-1">Calculator</h3>
+        <p class="text-custom-grey400">Uses data from past projects to provide better delivery estimates</p>
+        <img src="assets/images/icon-calculator.svg" alt="icon-calculator" class="absolute items-end bottom-6 right-6">
+        </div>
+    </div>
+
+
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+    <p class="text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-sky-400 underline">Frontend Mentor</a>.
+      Coded by <a href="#" target="_blank" class="text-sky-400 underline">The Eagle</a>.
     </p>
   </footer>
 </body>
